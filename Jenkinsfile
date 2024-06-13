@@ -8,7 +8,7 @@ pipeline{
     }
     environment{
         def appVersion = '' // variable declaration
-        nexusUrl = 'nexus.goadd.fun'
+        nexusUrl = 'nexus.goadd.fun:8081'
     }
     stages{
         stage('read app version'){
